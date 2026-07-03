@@ -83,11 +83,11 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li>
                 <a
-                  href="mailto:hello@parkbayconsulting.ie"
+                  href="mailto:ciara.mccluskey@gmail.com"
                   className="flex items-start gap-2.5 text-[14px] text-white/70 hover:text-white transition-colors duration-200"
                 >
                   <Mail size={15} className="text-gold flex-shrink-0 mt-[2px]" />
-                  hello@parkbayconsulting.ie
+                  hello@parkbayconsulting.com
                 </a>
               </li>
               <li>
