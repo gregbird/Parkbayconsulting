@@ -12,7 +12,7 @@ const services = [
     body2: 'Whether you are navigating a complex organisational transformation, preparing for a new board position, or seeking to strengthen your executive presence, this programme delivers the clarity and strategic sharpness that high-stakes leadership demands.',
     points: [
       'One-to-one sessions tailored to your leadership context',
-      'Psychometric profiling: MBTI, EQ-i, 360-degree feedback',
+      'Psychometric profiling: Emotional Intelligence Profiling, Hogan, MBTI, 360-degree feedback',
       'Stakeholder alignment and boardroom dynamics',
       'Executive presence and strategic communication',
       'Confidential, independent thinking partnership',
