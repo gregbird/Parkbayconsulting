@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #3D5166;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply relative overflow-hidden inline-flex items-center justify-center px-7 py-3.5 text-sm font-medium tracking-widest uppercase bg-gold text-white transition-all duration-300;
+  }
+
+  .btn-gold::before {
+    content: '';
+    @apply absolute inset-0 bg-[#9a7a38] translate-x-[-101%] transition-transform duration-300 ease-out;
+  }
+
+  .btn-gold:hover::before {
+    @apply translate-x-0;
+  }
+
+  .btn-gold span {
+    @apply relative z-10;
+  }
+
+  .btn-navy-outline {
+    @apply relative overflow-hidden inline-flex items-center justify-center px-7 py-3.5 text-sm font-medium tracking-widest uppercase border border-navy text-navy transition-all duration-300;
+  }
+
+  .btn-navy-outline::before {
+    content: '';
+    @apply absolute inset-0 bg-navy translate-x-[-101%] transition-transform duration-300 ease-out;
+  }
+
+  .btn-navy-outline:hover::before {
+    @apply translate-x-0;
+  }
+
+  .btn-navy-outline:hover {
+    @apply text-white;
+  }
+
+  .btn-navy-outline span {
+    @apply relative z-10;
+  }
+
+  .btn-gold-outline {
+    @apply relative overflow-hidden inline-flex items-center justify-center px-7 py-3.5 text-sm font-medium tracking-widest uppercase border border-gold text-gold transition-all duration-300;
+  }
+
+  .btn-gold-outline::before {
+    content: '';
+    @apply absolute inset-0 bg-gold translate-x-[-101%] transition-transform duration-300 ease-out;
+  }
+
+  .btn-gold-outline:hover::before {
+    @apply translate-x-0;
+  }
+
+  .btn-gold-outline:hover {
+    @apply text-white;
+  }
+
+  .btn-gold-outline span {
+    @apply relative z-10;
+  }
+
+  .btn-white-outline {
+    @apply relative overflow-hidden inline-flex items-center justify-center px-7 py-3.5 text-sm font-medium tracking-widest uppercase border border-white text-white transition-all duration-300;
+  }
+
+  .btn-white-outline::before {
+    content: '';
+    @apply absolute inset-0 bg-white translate-x-[-101%] transition-transform duration-300 ease-out;
+  }
+
+  .btn-white-outline:hover::before {
+    @apply translate-x-0;
+  }
+
+  .btn-white-outline:hover {
+    @apply text-navy;
+  }
+
+  .btn-white-outline span {
+    @apply relative z-10;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

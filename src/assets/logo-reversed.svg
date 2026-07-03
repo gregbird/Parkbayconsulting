@@ -1,0 +1,21 @@
+<svg width="320" height="90" viewBox="0 0 370 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mark (reversed) -->
+  <path d="M 0 75 Q 12 38 38 18 Q 56 6 70 25 Q 82 44 76 75 Z" fill="#FFFFFF"/>
+  <path d="M 9 75 Q 19 46 40 30 Q 54 21 63 35 Q 71 49 68 75 Z" fill="#B8974A"/>
+  <path d="M 19 75 Q 28 50 43 39 Q 52 32 58 43 Q 63 53 60 75 Z" fill="#F7F5F0"/>
+  <rect x="0" y="77" width="76" height="1.5" fill="#B8974A" rx="1"/>
+  <!-- Wordmark (reversed) -->
+  <text x="90" y="46"
+        font-family="'Playfair Display', Georgia, serif"
+        font-weight="600"
+        font-size="34"
+        fill="#FFFFFF"
+        letter-spacing="-0.3">Parkbay</text>
+  <text x="92" y="68"
+        font-family="'Inter', Arial, sans-serif"
+        font-weight="300"
+        font-size="13"
+        fill="#B8974A"
+        letter-spacing="4">CONSULTING</text>
+  <rect x="90" y="76" width="188" height="0.75" fill="#B8974A" opacity="0.5"/>
+</svg>
