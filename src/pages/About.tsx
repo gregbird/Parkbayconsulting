@@ -54,7 +54,7 @@ export default function About() {
                   and Learning & Development specialist with over 20 years of experience partnering
                   with senior leaders across the Republic of Ireland and
                   internationally. Her work spans organisations including DAA, EY, Bus Éireann, LAYA
-                  Healthcare, and Western Union — bringing a practitioner's perspective forged in
+                  Healthcare, and Western Union bringing a practitioner's perspective forged in
                   real boardroom dynamics across Ireland's private and public sectors.
                 </p>
               </FadeUp>
@@ -107,7 +107,7 @@ export default function About() {
             <p className="text-[17px] leading-[1.85] text-slate mb-6">
               She holds professional ICF Professional Coaching Accreditation and brings deep expertise in leadership
               development, career transition, high-potential talent, and executive team
-              effectiveness. Her approach is direct and results-focused — not a listening service,
+              effectiveness. Her approach is direct and results-focused not a listening service,
               but a partnership built for progress.
             </p>
           </FadeUp>
@@ -122,7 +122,7 @@ export default function About() {
           <FadeUp delay={0.2}>
             <p className="text-[17px] leading-[1.85] text-slate">
               Parkbay Consulting was founded on a simple belief: that the most ambitious leaders
-              deserve expert, independent support — delivered with rigour, discretion, and a genuine
+              deserve expert, independent support delivered with rigour, discretion, and a genuine
               commitment to results.
             </p>
           </FadeUp>
