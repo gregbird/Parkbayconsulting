@@ -50,9 +50,9 @@ export default function About() {
               </FadeUp>
               <FadeUp delay={0.2}>
                 <p className="text-[17px] leading-[1.85] text-slate max-w-[560px]">
-                  Ciara McCluskey is the founder of Parkbay Consulting and a premier executive coach
+                  Ciara McCluskey is the founder of Parkbay Consulting and a leading executive coach
                   and Learning & Development specialist with over 20 years of experience partnering
-                  with senior leaders across the Republic of Ireland, Northern Ireland, and
+                  with senior leaders across the Republic of Ireland and
                   internationally. Her work spans organisations including DAA, EY, Bus Éireann, LAYA
                   Healthcare, and Western Union — bringing a practitioner's perspective forged in
                   real boardroom dynamics across Ireland's private and public sectors.
@@ -99,13 +99,13 @@ export default function About() {
               coaching. She has held senior Learning & Development roles and has led large-scale
               talent and performance programmes across complex, matrixed organisations. Her coaching
               practice is grounded in behavioural science and evidence-based psychometric tools,
-              including Myers-Briggs Type Indicator (MBTI), Emotional Intelligence (EQ-i), and
-              360-degree feedback frameworks.
+              including Emotional Intelligence (EQ-i), Hogan Inventory and Myers-Briggs Type Indicator (MBTI)
+             frameworks.
             </p>
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="text-[17px] leading-[1.85] text-slate mb-6">
-              She holds professional coaching accreditation and brings deep expertise in leadership
+              She holds professional ICF Professional Coaching Accreditation and brings deep expertise in leadership
               development, career transition, high-potential talent, and executive team
               effectiveness. Her approach is direct and results-focused — not a listening service,
               but a partnership built for progress.
@@ -161,7 +161,7 @@ export default function About() {
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="text-[17px] leading-[1.75] text-white/70 mb-14 max-w-[600px]">
-              Parkbay Consulting has partnered with senior professionals across aviation, financial
+              Parkbay Consulting has partnered with senior professionals across financial
               services, healthcare, transport, and professional services.
             </p>
           </FadeUp>
