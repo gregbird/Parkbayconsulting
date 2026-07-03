@@ -35,27 +35,27 @@ const pillars = [
 const testimonials = [
   {
     quote:
-      'Ciara challenged me in ways I hadn\'t anticipated and helped me navigate one of the most critical transitions in my career. Her direct, evidence-based approach delivered results I genuinely felt.',
-    name: 'Chief Operating Officer',
-    company: 'Global Financial Services, Dublin',
+      '“Ciara is a dedicated, highly talented coach who consistently delivered outstanding results. People from all levels within the company responded to Ciara's support and challenge. She inspires and helps people and I can't think of a better way of explaining how Ciara impacts an organisation”.',
+    name: 'Chief People Officer',
+    company: 'daa',
   },
   {
     quote:
-      'Working with Parkbay Consulting transformed how I show up in the boardroom. The clarity I gained around my leadership style changed everything — for me and my team.',
-    name: 'VP of People & Culture',
-    company: 'Aviation Sector, Ireland',
+      '“I worked with Ciara for a number of months on personal development and career coaching. I found her style and approach really practical and engaging. I would highly recommend her”..',
+    name: 'Deputy Managing Director & Head of Commercial Business Development',
+    company: 'daa',
   },
   {
     quote:
-      'I\'ve worked with a number of coaches over the years. Ciara stands apart — she brings real corporate experience, not theory. Her coaching is honest, incisive, and genuinely effective.',
-    name: 'Managing Director',
-    company: 'Professional Services, Cork',
+      '“Ciara was a fantastic addition to our company for a complex change project we were working on.  Ciara worked closely with Organisation Development in the preparation for and delivery of a new Succession Planning tool.  Ciara's direction, experience and great personality helped us to deliver on this new process seamlessly.  I would strongly recommend Ciara for any organisational change/HR projects.',
+    name: 'OD Manager',
+    company: 'Laya Healthcare',
   },
   {
     quote:
-      'For any senior leader serious about executive development in Ireland, Parkbay Consulting is the benchmark. The ROI on coaching has been measurable within months.',
-    name: 'CEO',
-    company: 'Healthcare Organisation, Galway',
+      '“Ciara is a high-energy, enthusiastic and motivational professional who gets the best out of teams. She was instrumental in building and delivering award-winning training and development programmes at Ernst & Young. She engages and inspires people to be creative and productive. I hope to work with Ciara in other situations as she transforms teams and performance through her outstanding work',
+    name: 'Paul Rafferty,
+    company: 'Operations Director EY',
   },
 ];
 
