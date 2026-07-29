@@ -43,7 +43,7 @@ const testimonials = [
     quote:
       '“I worked with Ciara for a number of months on personal development and career coaching. I found her style and approach really practical and engaging. I would highly recommend her”..',
     name: 'Roy O Driscoll',
-    company: ' Deputy Managing Director & Head of Commercial Business Development, Cork Airport',
+    company: 'Deputy Managing Director & Head of Commercial Business Development, Cork Airport',
   },
   {
     quote:
