@@ -4,13 +4,13 @@ import CalendlyEmbed from '../components/CalendlyEmbed';
 import { useSEO } from '../hooks/useSEO';
 
 // TODO: Replace with actual Calendly URL
-const CALENDLY_URL = 'https://calendly.com/YOUR_CALENDLY_USERNAME/intro-call';
+const CALENDLY_URL = 'https://calendly.com/ciara-mccluskey/30min';
 
 const expectItems = [
   {
     icon: <Clock size={20} strokeWidth={1.5} className="text-gold" />,
     label: 'Duration',
-    value: '30–45 minutes',
+    value: '30 minutes',
   },
   {
     icon: <Video size={20} strokeWidth={1.5} className="text-gold" />,
@@ -28,8 +28,8 @@ export default function Book() {
   useSEO({
     title: 'Book a Strategic Consultation | Executive Coaching Ireland | Parkbay Consulting',
     description:
-      'Book a confidential introductory call with Ciara McCluskey, Ireland\'s leading executive coach. No obligation — explore coaching fit in 30–45 minutes.',
-    canonical: 'https://www.parkbayconsulting.ie/book',
+      'Book a confidential introductory call with Ciara McCluskey, Ireland\'s leading executive coach. No obligation — explore coaching fit in 30 minutes.',
+    canonical: 'https://www.parkbayconsulting.com/book',
   });
 
   return (
