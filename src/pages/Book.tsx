@@ -29,7 +29,7 @@ export default function Book() {
     title: 'Book a Strategic Consultation | Executive Coaching Ireland | Parkbay Consulting',
     description:
       'Book a confidential introductory call with Ciara McCluskey, Ireland\'s leading executive coach. No obligation — explore coaching fit in 30 minutes.',
-    canonical: 'https://www.parkbayconsulting.com/book',
+    canonical: 'https://parkbayconsulting.com/book',
   });
 
   return (
@@ -102,10 +102,10 @@ export default function Book() {
               <p className="text-[14px] text-slate leading-[1.7]">
                 If the booking calendar does not load, please email us directly at{' '}
                 <a
-                  href="mailto:hello@parkbayconsulting.ie"
+                  href="mailto:ciara.mccluskey(a)gmail.com"
                   className="text-gold hover:underline underline-offset-4"
                 >
-                  hello@parkbayconsulting.ie
+                  ciara.mccluskey(a)gmail.com
                 </a>{' '}
                 to arrange a time.
               </p>
