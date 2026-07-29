@@ -35,25 +35,25 @@ const pillars = [
 const testimonials = [
   {
     quote:
-      '“Ciara is a dedicated, highly talented coach who consistently delivered outstanding results. People from all levels within the company responded to Ciara's support and challenge. She inspires and helps people and I can't think of a better way of explaining how Ciara impacts an organisation”.',
+      'Ciara is a dedicated, highly talented coach who consistently delivered outstanding results. People from all levels within the company responded to Ciara's support and challenge. She inspires and helps people and I can't think of a better way of explaining how Ciara impacts an organisation',
     name: 'Brian Drain',
     company: 'Chief People Officer, daa',
   },
   {
     quote:
-      '“I worked with Ciara for a number of months on personal development and career coaching. I found her style and approach really practical and engaging. I would highly recommend her”..',
+      'I worked with Ciara for a number of months on personal development and career coaching. I found her style and approach really practical and engaging. I would highly recommend her',
     name: 'Roy O Driscoll',
     company: 'Deputy Managing Director & Head of Commercial Business Development, Cork Airport',
   },
   {
     quote:
-      '“Ciara was a fantastic addition to our company for a complex change project we were working on.  Ciara worked closely with Organisation Development in the preparation for and delivery of a new Succession Planning tool.  Ciara's direction, experience and great personality helped us to deliver on this new process seamlessly.  I would strongly recommend Ciara for any organisational change/HR projects.',
+      'Ciara was a fantastic addition to our company for a complex change project we were working on.  Ciara worked closely with Organisation Development in the preparation for and delivery of a new Succession Planning tool,  Ciara's direction, experience and great personality helped us to deliver on this new process seamlessly.  I would strongly recommend Ciara for any organisational change/HR projects',
     name: 'Veronica O'Keeffe',
     company: 'OD Manager, Laya Healthcare',
   },
   {
     quote:
-      '“Ciara is a high-energy, enthusiastic and motivational professional who gets the best out of teams. She was instrumental in building and delivering award-winning training and development programmes at Ernst & Young. She engages and inspires people to be creative and productive. I hope to work with Ciara in other situations as she transforms teams and performance through her outstanding work',
+      'Ciara is a high-energy, enthusiastic and motivational professional who gets the best out of teams. She was instrumental in building and delivering award-winning training and development programmes at Ernst & Young. She engages and inspires people to be creative and productive. I hope to work with Ciara in other situations as she transforms teams and performance through her outstanding work',
     name: 'Paul Rafferty,
     company: 'Operations Director, EY',
   },
