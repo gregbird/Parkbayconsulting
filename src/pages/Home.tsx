@@ -31,7 +31,7 @@ const pillars = [
     body: 'Every engagement is built around measurable outcomes — not conversations for their own sake.',
   },
 ];
- 
+
 const testimonials = [
   {
     quote:
