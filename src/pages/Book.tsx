@@ -3,7 +3,7 @@ import FadeUp from '../components/FadeUp';
 import CalendlyEmbed from '../components/CalendlyEmbed';
 import { useSEO } from '../hooks/useSEO';
 
-// TODO: Replace with actual Calendly URL
+// Calendly booking link
 const CALENDLY_URL = 'https://calendly.com/ciara-mccluskey/30min';
 
 const expectItems = [
@@ -102,10 +102,10 @@ export default function Book() {
               <p className="text-[14px] text-slate leading-[1.7]">
                 If the booking calendar does not load, please email us directly at{' '}
                 <a
-                  href="mailto:ciara.mccluskey(a)gmail.com"
+                  href="mailto:hello@parkbayconsulting.com"
                   className="text-gold hover:underline underline-offset-4"
                 >
-                  ciara.mccluskey(a)gmail.com
+                  hello@parkbayconsulting.com
                 </a>{' '}
                 to arrange a time.
               </p>
@@ -140,14 +140,14 @@ export default function Book() {
           <FadeUp delay={0.15}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:hello@parkbayconsulting.ie"
+                href="mailto:hello@parkbayconsulting.com"
                 className="btn-gold-outline text-[13px] flex items-center gap-2"
               >
                 <Mail size={14} />
                 <span>Email Us</span>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ciara-mccluskey-13673a7/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-white-outline text-[13px] flex items-center gap-2"
