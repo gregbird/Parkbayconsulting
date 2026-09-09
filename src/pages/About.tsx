@@ -53,7 +53,7 @@ export default function About() {
                   Ciara McCluskey is the founder of Parkbay Consulting and a leading executive coach
                   and Learning & Development specialist with over 20 years of experience partnering
                   with senior leaders across the Republic of Ireland and
-                  internationally. Her work spans organisations including DAA, EY, Bus Éireann, LAYA
+                  internationally. Her work spans organisations including daa, EY, Bus Éireann, LAYA
                   Healthcare, and Western Union bringing a practitioner's perspective forged in
                   real boardroom dynamics across Ireland's private and public sectors.
                 </p>
