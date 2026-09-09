@@ -19,7 +19,7 @@ export default function Contact() {
     title: 'Contact | Executive Coaching Ireland | Parkbay Consulting',
     description:
       'Get in touch with Parkbay Consulting to enquire about executive coaching across Ireland — Dublin, Cork, Galway, Limerick, Belfast and worldwide.',
-    canonical: 'https://www.parkbayconsulting.ie/contact',
+    canonical: 'https://parkbayconsulting.com/contact',
   });
 
   const [formState, setFormState] = useState<FormState>('idle');
@@ -38,9 +38,26 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setFormState('submitting');
-    // Simulate async submission — wire up to a real endpoint or Supabase edge function when ready
-    await new Promise((res) => setTimeout(res, 1000));
-    setFormState('success');
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/ciara.mccluskey@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          name: fields.name,
+          email: fields.email,
+          organisation: fields.organisation,
+          role: fields.role,
+          message: fields.message,
+          _subject: `New enquiry from ${fields.name} — parkbayconsulting.com`,
+          _template: 'table',
+          _captcha: 'false',
+        }),
+      });
+      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+      setFormState('success');
+    } catch {
+      setFormState('error');
+    }
   };
 
   return (
@@ -182,6 +199,16 @@ export default function Contact() {
                         <span>{formState === 'submitting' ? 'Sending...' : 'Send Enquiry'}</span>
                       </button>
                     </div>
+                    {formState === 'error' && (
+                      <p className="text-[14px] text-red-600">
+                        Sorry, something went wrong sending your message. Please try again, or email
+                        us directly at{' '}
+                        <a href="mailto:hello@parkbayconsulting.com" className="underline">
+                          hello@parkbayconsulting.com
+                        </a>
+                        .
+                      </p>
+                    )}
                     <p className="text-[12px] text-slate/50 italic">
                       All enquiries are treated with complete confidentiality. There is no obligation to proceed.
                     </p>
@@ -199,16 +226,16 @@ export default function Contact() {
                 <ul className="flex flex-col gap-5 mb-12">
                   <li>
                     <a
-                      href="mailto:hello@parkbayconsulting.ie"
+                      href="mailto:hello@parkbayconsulting.com"
                       className="flex items-center gap-3 text-[15px] text-slate hover:text-gold transition-colors duration-200"
                     >
                       <Mail size={16} className="text-gold flex-shrink-0" strokeWidth={1.5} />
-                      hello@parkbayconsulting.ie
+                      hello@parkbayconsulting.com
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/ciara-mccluskey-13673a7/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-3 text-[15px] text-slate hover:text-gold transition-colors duration-200"
