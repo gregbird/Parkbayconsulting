@@ -77,7 +77,7 @@ export default function Services() {
     title: 'Executive Coaching Services Ireland | C-Suite, Leadership & Career | Parkbay Consulting',
     description:
       'Explore Parkbay Consulting\'s executive coaching services: C-suite coaching, high-performance leadership development, and strategic career transition coaching across Ireland.',
-    canonical: 'https://www.parkbayconsulting.ie/services',
+    canonical: 'https://parkbayconsulting.com/services',
   });
 
   return (
