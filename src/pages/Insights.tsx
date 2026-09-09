@@ -75,7 +75,7 @@ export default function Insights() {
     title: 'Executive Leadership Insights | Blog | Parkbay Consulting Ireland',
     description:
       'Insights on executive coaching, leadership development, and high-performance career management for senior leaders across Ireland.',
-    canonical: 'https://www.parkbayconsulting.ie/insights',
+    canonical: 'https://parkbayconsulting.com/insights',
   });
 
   return (
