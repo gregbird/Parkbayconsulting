@@ -28,7 +28,7 @@ export default function About() {
     title: 'About Ciara McCluskey | Executive Coach Ireland | Parkbay Consulting',
     description:
       'Ciara McCluskey is a leading executive coach and leadership development specialist with 20+ years of experience partnering with senior leaders across Ireland and internationally.',
-    canonical: 'https://www.parkbayconsulting.ie/about',
+    canonical: 'https://parkbayconsulting.com/about',
   });
 
   return (
