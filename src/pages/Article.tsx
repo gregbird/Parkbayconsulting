@@ -14,7 +14,7 @@ export default function Article() {
       : 'Article | Parkbay Consulting',
     description: article?.excerpt ?? '',
     canonical: article
-      ? `https://www.parkbayconsulting.ie/insights/${article.slug}`
+      ? `https://parkbayconsulting.com/insights/${article.slug}`
       : undefined,
   });
 
