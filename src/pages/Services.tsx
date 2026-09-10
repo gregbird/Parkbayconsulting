@@ -28,7 +28,7 @@ const services = [
     body2: 'These programmes integrate individual and team-level interventions, combining one-to-one coaching with structured frameworks for goal-setting, accountability, and measurable performance improvement.',
     points: [
       'Designed for career progression',
-      'Structured 3–9 month programme arc with clear milestones',
+      'Structured programme with clear milestones',
       'Team effectiveness and high-performance culture',
       'Emotional intelligence and resilience building',
     ],
