@@ -27,11 +27,10 @@ const services = [
     body: 'High performance is not accidental. Parkbay Consulting\'s leadership development programmes are designed for ambitious professionals in Ireland who are being developed into more senior roles — and for the organisations that recognise the commercial value of structured, expert coaching.',
     body2: 'These programmes integrate individual and team-level interventions, combining one-to-one coaching with structured frameworks for goal-setting, accountability, and measurable performance improvement.',
     points: [
-      'Designed for VP, Director, and Senior Manager level',
+      'Designed for career progression',
       'Structured 3–9 month programme arc with clear milestones',
       'Team effectiveness and high-performance culture',
       'Emotional intelligence and resilience building',
-      'Available across Dublin, Cork, Galway, Limerick, Belfast and remote',
     ],
     keywords: 'leadership development Ireland, high-performance coaching Dublin, leadership training Belfast',
     bg: 'bg-ivory',
@@ -99,8 +98,7 @@ export default function Services() {
           <FadeUp delay={0.2}>
             <p className="text-[17px] md:text-[19px] leading-[1.85] text-slate max-w-[640px] mx-auto mb-10">
               Three bespoke coaching programmes for senior leaders — designed to deliver measurable
-              results at every stage of the executive career. Serving Dublin, Cork, Galway, Belfast,
-              Limerick, and worldwide.
+              results at every stage of the executive career.
             </p>
           </FadeUp>
           <FadeUp delay={0.25}>
