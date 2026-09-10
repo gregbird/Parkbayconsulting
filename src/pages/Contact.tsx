@@ -4,12 +4,7 @@ import FadeUp from '../components/FadeUp';
 import { useSEO } from '../hooks/useSEO';
 
 const coverageAreas = [
-  { city: 'Dublin', note: 'Republic of Ireland — Headquarters' },
-  { city: 'Cork', note: 'Republic of Ireland — South' },
-  { city: 'Galway', note: 'Republic of Ireland — West' },
-  { city: 'Limerick', note: 'Republic of Ireland — Midwest' },
-  { city: 'Belfast', note: 'Northern Ireland' },
-  { city: 'Remote / Worldwide', note: 'International video sessions' },
+  
 ];
 
 type FormState = 'idle' | 'submitting' | 'success' | 'error';
